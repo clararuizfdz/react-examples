@@ -1,6 +1,8 @@
 import React from "react";
 import { useDebounce } from "use-debounce";
 
+//Example custom hook "useUserCollection"
+
 const useUserCollection = () =>{
 
     const [filter, setFilter] = React.useState("");
