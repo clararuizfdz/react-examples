@@ -1,6 +1,6 @@
 import React from "react";
-import { MyComponent4 } from "./demo4";
+import { MyComponent5 } from "./demo5";
 
 export const App = () => {
-  return <MyComponent4 />;
+  return <MyComponent5 />;
 };
