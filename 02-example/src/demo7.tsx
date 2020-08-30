@@ -4,10 +4,10 @@ interface Props {
     onReset: () => void;
 }
 
-const ResetValue: React.FC<Props> = React.memo((props) => {
+const ResetValue: React.FC<Props> = React.memo(({ onReset }) => {
     console.log("Hey I'm only rendered when name gets updated, check React.memo + callback");
 
-    return <button onClick={props.onReset}>Reset value</button>
+    return <button onClick={onReset}>Reset value</button>
 })
 export const MyComponent7 = () => {
     const [username, setUsername] = React.useState("John");
