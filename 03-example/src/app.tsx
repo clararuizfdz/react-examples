@@ -7,9 +7,9 @@ import {MyUserInfoContextProvider} from "./userContext";
 
 export const App = () => {
   return (
-    <MyUserInfoContextProvider>
-      <MyComponent3 />
-      <EditUser />
-    </MyUserInfoContextProvider>
+    // <MyUserInfoContextProvider>
+    //   <MyComponent3 />
+    //   <EditUser />
+    // </MyUserInfoContextProvider>
   );
 };
